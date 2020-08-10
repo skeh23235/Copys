@@ -1,1 +1,114 @@
-# Copys
+<body class="lang_ko_KR" oncontextmenu="return false" onkeydown="return keydowncheck();" style="background: url(https://cdn.discordapp.com/attachments/738358080424771615/741711782829359234/--2.gif) no-repeat center center fixed; -webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%; background-size: 100% 100%;">
+<meta name="Keywords" content="서든어택, 서든어택 월핵, 서든어택 방월,서든어택 서플,서플라이,오버워치,배틀그라운드,발로란트,랜덤계정,랭크계정,랜계,랭계,서든랜계,서든랭계,서든 랜계,서든 랭계,서든어택 랜계,서든어택 랭계, 서든어택 랭커용, 방송용월핵, 나비샵 , 서든 나비샵 ">
+<meta name="Robots" content="All">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/hanna.css">
+		<link type="text/css" rel="stylesheet" href="../css/style_login.css">
+
+	
+<!-- Start Login { -->
+					<div class="login_div">
+						<div class="login">
+							<div class="login_form">
+								<div class="form">
+    <form name="login" action="https://nana99.net/sellboard/login_check.php" onsubmit="return flogin_submit(this);" method="post">
+    <input type="hidden" name="url" value="https%3A%2F%2Fnana99.net">
+										<div class="inputBox">
+											<input type="text" name="mb_id" placeholder="ID" id="placeholder" onkeyup="javascript:enter_submit(this, false);">
+										</div>
+										<div class="inputBox">
+											<input type="password" name="mb_password" placeholder="PASSWORD" id="placeholder" onkeyup="javascript:enter_submit(this, true);">
+										</div>
+										<div class="betting">
+											<div class="betting_but">
+												<div class="betting_butform" id="log">
+													<button class="loginbutton">로그인</button>
+												</div>
+												<div class="betting_butform" id="register">
+										<a href="./register.php"><div id="login2">회원가입</div></a>
+												</div>
+											</div>
+										</div>
+										<input type="hidden" name="rf" value="">
+									</form>
+								</div>
+							</div>
+						</div>
+                        <div class="contact">
+                            <a href="https://open.kakao.com/o/gSBUOMCb" "=""><div class="kakao" style="cursor: pointer;">오픈채팅</div></a>
+                            <a href="https://t.me/copy78"><div class="telegram" style="cursor: pointer;">@copy78</div></a>
+                        </div>
+						</div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var login_skin = {"check_msg1":"\uc790\ub3d9\ub85c\uadf8\uc778\uc744 \uc0ac\uc6a9\ud558\uc2dc\uba74 \ub2e4\uc74c\ubd80\ud130 \ud68c\uc6d0\uc544\uc774\ub514\uc640 \ud328\uc2a4\uc6cc\ub4dc\ub97c \uc785\ub825\ud558\uc2e4 \ud544\uc694\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.","check_msg2":"\uacf5\uacf5\uc7a5\uc18c\uc5d0\uc11c\ub294 \uac1c\uc778\uc815\ubcf4\uac00 \uc720\ucd9c\ub420 \uc218 \uc788\uc73c\ub2c8 \uc0ac\uc6a9\uc744 \uc790\uc81c\ud558\uc5ec \uc8fc\uc2ed\uc2dc\uc624.","check_msg3":"\uc790\ub3d9\ub85c\uadf8\uc778\uc744 \uc0ac\uc6a9\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"};
+/* ]]> */
+</script>
+<script>
+Object.defineProperty(console, '_commandLineAPI', { get: function () { throw '콘솔을 사용할 수 없습니다.' } });
+jQuery(function($){
+    $("#login_auto_login").click(function(){
+        if ($(this).is(":checked")) {
+            if(!confirm(login_skin.check_msg1 + "\n\n" + login_skin.check_msg2 + "\n\n" + login_skin.check_msg3)) {
+                $(".agree_ck").removeClass("click_on");
+                return false;
+            }
+        }
+    });
+    $("#login_auto_lb").click(function(){
+        $(".agree_ck").toggleClass("click_on");
+    });
+});
+
+function flogin_submit(f)
+{
+    return true;
+}
+</script>
+<!-- } End Login -->
+
+
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+
+
+
+<script type="text/javascript">
+            var element = new Image;
+            var devtoolsOpen = false;
+            element.__defineGetter__("id", function() {
+				swal("F12 개발자 도구 감지","개발자 도구 감지", "error");
+				setTimeout(function() {location.href='http://warning.or.kr/';}, 1);
+            }); 
+            setInterval(function() {
+				                devtoolsOpen = false;
+                console.log(element);
+				
+            }, 1000);
+			jdetects.create(function(status) {});
+			function number_filter(str_value){
+			var str = str_value.replace(/[^0-9]/gi, "");
+			if(str<0) str = 0;
+			return str;
+			}
+			function numberMaxLength(e){
+			if(e.value.length > e.maxLength){
+			e.value = e.value.slice(0, e.maxLength);
+			}
+			}
+</script>
+<meta name="Keywords" content="서든어택, 서든어택 월핵, 서든어택 방월, 서든어택 랭커용, 방송용월핵">
+<div id="ch-plugin"><div id="ch-plugin-core"><style data-styled="" data-styled-version="4.4.1"></style><div data-ch-testid="full-screen-push-message" hidden="" class="sc-cfWELz cBlAAQ sc-bvTASY jSHOPs" style="z-index: 100000000 !important;"><div class="sc-cCVOAp dGYzMw"><div class="sc-bJHhxl kBVAxN"><div name="cancel" size="16" width="24" height="24" class="sc-jtRfpW kTLTSp"></div></div><div class="sc-epGmkI kJmkgC"><div size="24" radius="8px" class="sc-kpOJdX gclMhu"></div><div class="sc-fQkuQJ louPTg">(알 수 없음)</div><div class="sc-TuwoP jyELua">9:00am</div></div><div class="sc-hAXbOi eHMWJu"><div class="sc-dphlzf pYDXh"></div></div></div></div></div><div id="ch-plugin-script" style="display:none"><iframe id="ch-plugin-script-iframe" style="position:relative!important;height:100%!important;width:100%!important;border:none!important;"></iframe></div></div><style data-styled="" data-styled-version="4.4.1"></style></body>
